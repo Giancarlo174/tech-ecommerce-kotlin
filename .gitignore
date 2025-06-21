@@ -1,0 +1,107 @@
+# Archivos y directorios específicos de Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+.externalNativeBuild/
+.cxx/
+
+# Archivos generados por Gradle
+.gradle/
+build/
+/*/build/
+/build
+/captures/
+.externalNativeBuild
+.cxx
+
+# Archivos locales de propiedades
+local.properties
+*.properties
+!/gradle/wrapper/gradle-wrapper.properties
+
+# Archivos de configuración de Android Studio y sistema
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+.idea/misc.xml
+.idea/navEditor.xml
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.project
+.classpath
+.settings/
+
+# Archivos de compilación y caché de Kotlin
+*.kotlin_module
+.kotlin/
+out/
+.kotlintest/
+
+# Archivos de log
+*.log
+
+# Archivos de Proguard
+proguard/
+
+# Cache de Android Studio
+/captures/
+
+# VS Code
+.vscode/
+# Excepto mcp.json que es necesario para el entorno de desarrollo con VS Code
+!.vscode/mcp.json
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Carpetas específicas del sistema Android
+/gen/
+/out/
+/bin/
+
+# Archivos específicos de generación y compilación
+.navigation/
+obj/
+
+# Archivos de mapeo de R8/Proguard generados
+*.map
+
+# Google Services (por ejemplo, google-services.json)
+google-services.json
+
+# Carpeta de caché generada en tiempo de ejecución
+.hprof
+*.hprof
+
+# Archivos específicos de Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos específicos del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Android Profiling
+*.trace
+
+# NDK
+.externalNativeBuild
+.cxx/
+
+# Configuraciones específicas del emulador
+.android/
